@@ -3,59 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>متجر الألعاب</title>
+    <title>متجر الألعاب - Fortnite</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- شريط التنقل العلوي -->
     <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo" />
+        </div>
         <nav>
             <ul>
-                <li><a href="#home">الرئيسية</a></li>
-                <li><a href="#products">المنتجات</a></li>
-                <li><a href="#about">عن المتجر</a></li>
-                <li><a href="#contact">اتصل بنا</a></li>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">المنتجات</a></li>
+                <li><a href="#">اتصل بنا</a></li>
+                <li><a href="#">الدفع</a></li>
             </ul>
         </nav>
+        <div class="cart">
+            <a href="#">سلة التسوق (0)</a>
+        </div>
     </header>
 
-    <section id="home">
-        <h1>مرحباً بكم في متجرنا!</h1>
-        <p>أكبر متجر لبيع V-Bucks واشتراكات Fortnite Crew.</p>
-    </section>
-
-    <section id="products">
-        <h2>منتجاتنا</h2>
-        <div class="product">
-            <h3>V-Bucks</h3>
-            <p>اشترِ V-Bucks للحصول على مكافآت داخل اللعبة.</p>
-            <button>شراء الآن</button>
-        </div>
-        <div class="product">
-            <h3>اشتراك Fortnite Crew</h3>
-            <p>احصل على مزايا حصرية مع الاشتراك الشهري.</p>
-            <button>شراء الآن</button>
+    <!-- صورة خلفية كبيرة -->
+    <section class="hero">
+        <img src="hero-image.jpg" alt="Hero Image" />
+        <div class="hero-text">
+            <h1>احصل على حسابات Fortnite الآن</h1>
+            <p>أفضل الأسعار والخيارات</p>
+            <a href="#" class="btn">تسوق الآن</a>
         </div>
     </section>
 
-    <section id="about">
-        <h2>عن المتجر</h2>
-        <p>نحن نقدم لك أفضل تجربة شراء لمستلزمات ألعابك المفضلة مع خيارات دفع سهلة وآمنة.</p>
+    <!-- المنتجات والعروض -->
+    <section class="products">
+        <h2>أفضل العروض</h2>
+        <div class="product">
+            <img src="product1.jpg" alt="منتج 1">
+            <h3>حساب Fortnite - 75 V-Bucks</h3>
+            <p>سعر: 50 ريال سعودي</p>
+            <a href="#">شراء الآن</a>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="منتج 2">
+            <h3>حساب Fortnite - 100 V-Bucks</h3>
+            <p>سعر: 75 ريال سعودي</p>
+            <a href="#">شراء الآن</a>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>اتصل بنا</h2>
-        <form>
-            <label for="name">الاسم:</label>
-            <input type="text" id="name" name="name">
-            <label for="email">البريد الإلكتروني:</label>
-            <input type="email" id="email" name="email">
-            <button type="submit">إرسال</button>
-        </form>
-    </section>
-
+    <!-- الفوتر -->
     <footer>
-        <p>&copy; 2025 متجر الألعاب. جميع الحقوق محفوظة.</p>
+        <p>&copy; 2025 متجر Fortnite. جميع الحقوق محفوظة.</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
+
+
