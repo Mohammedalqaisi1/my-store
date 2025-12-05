@@ -1,5 +1,6 @@
-document.querySelectorAll('.product button').forEach(button => {
+// script.js
+document.querySelectorAll('.product a').forEach(button => {
     button.addEventListener('click', function() {
-        alert('تمت إضافة المنتج إلى سلة الشراء!');
+        alert('تم إضافة المنتج إلى سلة التسوق!');
     });
 });
